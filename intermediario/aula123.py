@@ -1,7 +1,7 @@
 # copy - retorna uma cópia rasa (shallow copy) - Método
 #No dicionario quando temos uma atribuição de d1=d2, quando utilizamos o sinal de atribuição = com valores mutaveis (Dicionario e Lista), o sinal = não faz mais a cópia, ele indica que d2 aponta para o mesmo dicionario d1
 
-import copy # Deep copy, ou seja, ele irá copiar até os mutaveis
+import copy # Deep copy, ou seja, ele irá copiar até os mutaveis, como lista e dic.
 
 d1 = {
     'c1': 1,
